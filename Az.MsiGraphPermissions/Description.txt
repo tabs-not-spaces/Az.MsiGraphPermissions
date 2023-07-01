@@ -1,0 +1,2 @@
+Want to apply Graph Permissions / Roles to a Managed Service Identity in Azure? Now you can!
+This module only exists to patch this missing feature from the AAD Managed Identity UI. Hopefully this will not be needed for long!
