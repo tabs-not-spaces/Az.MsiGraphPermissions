@@ -23,7 +23,7 @@ $roles = @(
     "DeviceManagementServiceConfig.ReadWrite.All", 
     "GroupMember.Read.All"
 )
-Add-GraphApiRoleToMSI -ApplicationName "MyObviouslyCoolApp" -GraphApiRole $roles -Token $token.Token
+Add-GraphPermissionToMsi -ApplicationName "MyObviouslyCoolApp" -GraphApiPermission $roles -Token $token.Token
 ```
 
 In the above example we get our auth token using the Az.Accounts module, but any MSAL solution can be leveraged.
